@@ -45,7 +45,7 @@ function test_input($data) {
 
 ?>
 
-<center>
+
     <form method="post" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
 
 
@@ -60,7 +60,7 @@ function test_input($data) {
 
             <br><br>
             <input type="submit" name="submit" value="Submit">
-            </row>
+        
     </form>
 
     <?php
@@ -75,7 +75,7 @@ function test_input($data) {
     }
 
     ?>
-</center>
+
 
 </body>
 </html>
