@@ -62,6 +62,7 @@ function test_input($data) {
 
             <br><br>
             <input type="submit" name="submit" value="Submit">
+        </div>
 
     </form>
 
