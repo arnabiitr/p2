@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
+    <title>Arnabs Project 2</title>
+    <link rel='stylesheet' id='arnab-bootstrap-css'  href='css/bootstrap.min.css' type='text/css' media='all' />
 
     <style>
         .redBorder {
@@ -60,7 +62,7 @@ function test_input($data) {
 
             <br><br>
             <input type="submit" name="submit" value="Submit">
-        
+
     </form>
 
     <?php
