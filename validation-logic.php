@@ -10,8 +10,7 @@ if ($submitted) {
         [
             'email' => 'required|email',
             'url' => 'required|url',
-
-
+            'comment'=>'required',
         ]
     );
 }
