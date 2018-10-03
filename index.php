@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-    <title>Arnabs Project 2</title>
+    <title>Arnab's Project 2</title>
     <link rel='stylesheet' id='arnab-bootstrap-css'  href='css/bootstrap.min.css' type='text/css' media='all' />
 
 
@@ -31,7 +31,7 @@ require 'validation-logic.php';
         <br><br>
 
         <div class="text-center">
-            <label for='email'>Website: (required|email)</label>
+            <label for='email'>Website: (required|url)</label>
             <input type="text" name="url" id="url" value ="<?php echo $form->get('url', 'http://p2.dwa-fall2018-arnab.me/'); ?>"  style="width: 300px;" >
         </div>
         <br><br>
@@ -59,7 +59,7 @@ require 'validation-logic.php';
     </div>
 <?php elseif ($submitted): ?>
     <br><br>
-    <div class="text-center"> <?= "Result =Website: " . $_GET['url'] . "".getCount($_GET['comment'], $_GET['email'])." <?php> <br/>"; ?> </div>
+    <div class="text-center"><strong> <?= "Result =" . $_GET['url'] . "".getCount($_GET['comment'], $_GET['email'])." <?php> <br/>"; ?> </strong></div>
     <div class='alert alert-info'>
         No errors
     </div>
