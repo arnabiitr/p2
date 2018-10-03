@@ -4,11 +4,7 @@
     <title>Arnabs Project 2</title>
     <link rel='stylesheet' id='arnab-bootstrap-css'  href='css/bootstrap.min.css' type='text/css' media='all' />
 
-    <style>
-        .redBorder {
-            border: 2px solid red;
-        }
-    </style>
+
 </head>
 <body>
 
@@ -23,23 +19,25 @@ require 'validation-logic.php';
 
 
     <div class="row">
-        <div class="col-3 col-md-4 text-center">E-mail: (required|email)
+        <div class="text-center">E-mail: (required|email)
             <input type="text" name="email" id="email" value ="<?php echo $form->get('email', 'arnab@gmail.com'); ?>">
         </div>
         <br><br>
-        <div class="col-3 col-md-4 text-center">Website: (required|url)
+        <div class="text-center">Website: (required|url)
             <input type="text" name="url" id="url" value ="<?php echo $form->get('url', 'http://p2.dwa-fall2018-arnab.me/'); ?>">
         </div>
         <br><br>
 
-        <div class="col-3 col-md-4 text-center">Comment:
+        <div class="text-center">Comment:
             <textarea name="comment" rows="5" cols="40" ></textarea>
         </div>
         <br><br>
 
 
         <br><br>
+        <div class="text-center">
         <input type="submit" name="submit" value="Submit">
+        </div>
     </div>
 
 </form>
