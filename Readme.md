@@ -15,4 +15,4 @@
 
 
 ## Notes for instructor
-
+I used Server validations on the input elements 
